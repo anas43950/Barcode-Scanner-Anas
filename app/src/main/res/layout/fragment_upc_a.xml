@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.textfield.TextInputLayout style="@style/TextInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/TextInputEditText"
+            android:id="@+id/text_et"
+            android:inputType="number"
+            android:maxLength="11"
+            android:hint="11 Digits" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

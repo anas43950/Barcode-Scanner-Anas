@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_search_engine_options">
+        <item>Google</item>
+        <item>Bing</item>
+        <item>Yahoo</item>
+    </string-array>
+
+    <string-array name="pref_search_engine_values">
+        <item>google</item>
+        <item>bing</item>
+        <item>yahoo</item>
+    </string-array>
+</resources>

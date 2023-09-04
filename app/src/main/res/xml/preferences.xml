@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference
+        android:key="@string/enable_flashlight_key"
+        android:title="Enable flash by default"
+        app:iconSpaceReserved="false" />
+    <SwitchPreference
+        android:key="@string/vibration_key"
+        android:title="Enable vibration"
+        app:iconSpaceReserved="false" />
+
+    <SwitchPreference
+        android:key="@string/open_content_key"
+        android:summary="May open harmful content"
+        android:title="Open content automatically"
+        app:iconSpaceReserved="false" />
+
+    <SwitchPreference
+        android:key="@string/copy_to_clipboard_key"
+        android:summary="Copy scanned content to clipboard automatically"
+        android:title="Copy to clipboard automatically"
+        app:iconSpaceReserved="false" />
+    <SwitchPreference
+        android:key="@string/scan_manually_key"
+        android:summary="Turn this feature on to avoid accidental scans"
+        android:title="Scan manually"
+        app:iconSpaceReserved="false" />
+<!--    <DropDownPreference-->
+<!--        android:entries="@array/pref_search_engine_options"-->
+<!--        android:entryValues="@array/pref_search_engine_values"-->
+<!--        android:key="@string/search_engine_key"-->
+<!--        android:title="Search Engine"-->
+<!--        app:iconSpaceReserved="false" />-->
+    <Preference
+        android:key="@string/clear_history_key"
+        android:title="Clear History"
+        app:iconSpaceReserved="false" />
+    <Preference
+        android:key="@string/rate_us_key"
+        android:title="Rate us"
+        app:iconSpaceReserved="false" />
+</PreferenceScreen>

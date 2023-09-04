@@ -1,0 +1,12 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BarcodeScanner" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.BarcodeScanner" parent="Base.Theme.BarcodeScanner" />
+
+    <style name="SplashScreenTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>
